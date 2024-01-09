@@ -16,7 +16,7 @@ func main() {
 
 func Hello() echo.HandlerFunc {
     return func(c echo.Context) error {
-        return c.String(http.StatusOK, "4431: v( ´◉‿ゝ◉`)v")
+        return c.String(http.StatusOK, "4431: 書き換えました。")
     }
 }
 
